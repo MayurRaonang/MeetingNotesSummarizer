@@ -44,7 +44,7 @@ const LandingPage = () => {
   const [isEmailSending, setIsEmailSending] = useState(false);
   const [message, setMessage] = useState('');
 
-  const API_BASE_URL =  'http://localhost:8080';
+  const API_BASE_URL =  'https://meetingnotessummarizerbackend.onrender.com';
 
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
